@@ -1,10 +1,11 @@
 {
-  "name": "acme-supermarket",
+  "name": "acme-supermarket-test",
   "version": "1.0.0",
   "description": "ACME JavaScript Test",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "webpack --config webpack.config.js",
+    "test": "jest"
   },
   "repository": {
     "type": "git",
@@ -14,10 +15,35 @@
     "javascript",
     "test"
   ],
-  "author": "",
+  "author": "Charlie Davison",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/ag-digital/acme-supermarket-test/issues"
   },
-  "homepage": "https://github.com/ag-digital/acme-supermarket-test#readme"
+  "homepage": "https://github.com/ag-digital/acme-supermarket-test#readme",
+  "babel": {
+    "presets": [
+      "env",
+      "react",
+      "stage-2"
+    ]
+  },
+  "dependencies": {
+    "prop-types": "^15.6.1",
+    "react": "^16.4.0",
+    "react-dom": "^16.4.0"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.4",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-2": "^6.24.1",
+    "copy-webpack-plugin": "^4.5.1",
+    "enzyme": "^3.3.0",
+    "enzyme-adapter-react-16": "^1.1.1",
+    "jest": "^23.1.0",
+    "webpack": "^4.12.0",
+    "webpack-cli": "^3.0.3"
+  }
 }
