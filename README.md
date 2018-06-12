@@ -1,8 +1,19 @@
 # ACME Supermarket
 
-Create a solution for the ACME Supermarket problem.
+## Test Solution
+
+### Setup
+
+1. npm install
+2. npm run build
+3. npm test
+4. Open public/index.html in your browser
+
+
+
 
 ## Description of the problem
+ Create a solution for the ACME Supermarket problem.
 
 ACME's quest for global domination has prompted us to open a supermarket – we sell only three products:
 
