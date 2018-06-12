@@ -9,6 +9,13 @@
 3. npm test
 4. Open public/index.html in your browser
 
+### Enhancements
+
+Were I to continue working on this problem I'd consider the following - 
+
+1. No server element to the solution currently, however this could easily be acheived with the addition of express or a similar framework.
+
+2. The size of the solution doesn't really warrant a separate state library at the moment but should it grow beyond it's current state, something like Redux or Flux could be brought in to handle this.
 
 
 
