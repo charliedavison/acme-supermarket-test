@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Header /> Should match snapshot 1`] = `
+<div
+  className="header"
+>
+  <h1>
+    ACME Supermarket
+  </h1>
+</div>
+`;

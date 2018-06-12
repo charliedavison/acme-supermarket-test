@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Product /> Should match snapshot 1`] = `
+<div
+  className="product"
+  onClick={[Function]}
+>
+  <img
+    className="product-image"
+    src="img/tea.jpg"
+  />
+  <div
+    className="product-name"
+  >
+    Fruit tea
+  </div>
+</div>
+`;

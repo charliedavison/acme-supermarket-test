@@ -1,0 +1,66 @@
+html,
+body {
+    margin: 10px;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+table {
+    text-align: left;
+    width: 100%;
+}
+
+th {
+    height: 50px;
+}
+
+.app-container {
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.header {
+    height: 50px;
+    width: 100%;
+    border-bottom: 2px solid #b3b3b3;
+}
+
+.products-container {
+    display: flex;
+    flex-direction: row;
+    flex-flow: row wrap;
+}
+
+.product {
+    margin-top: 20px;
+    height: 150px;
+    width: 200px;
+    border: 1px solid #b3b3b3;
+    margin-right: 10px;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.product:hover {
+    background-color: #d8d8d8;
+    transition: 0.3s ease;
+}
+
+.product>.product-name {
+    text-align: center;
+}
+
+.product>.product-image {
+    height: 120px;
+    width: 200px;
+}
+
+.total {
+    text-align: right;
+}
+
+.text-bold {
+    font-weight: bold;
+}
+

@@ -1,0 +1,53 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<BasketView /> Has Items Should match snapshot 1`] = `
+<table>
+  <thead>
+    <tr>
+      <th>
+        Item Description
+      </th>
+      <th>
+        Quantity
+      </th>
+      <th>
+        Price
+      </th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr
+      key="basketItem_CF1"
+    >
+      <td>
+        Coffee
+      </td>
+      <td>
+        1
+      </td>
+      <td>
+        £11.23
+      </td>
+    </tr>
+  </tbody>
+</table>
+`;
+
+exports[`<BasketView /> No Items Should match snapshot 1`] = `
+<table>
+  <thead>
+    <tr>
+      <th>
+        Item Description
+      </th>
+      <th>
+        Quantity
+      </th>
+      <th>
+        Price
+      </th>
+    </tr>
+  </thead>
+  <tbody />
+</table>
+`;

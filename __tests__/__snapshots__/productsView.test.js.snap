@@ -1,0 +1,44 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ProductsView /> Should match snapshot 1`] = `
+<div
+  className="products-container"
+>
+  <Product
+    key="FR1"
+    onClick={[MockFunction]}
+    product={
+      Object {
+        "image": "tea.jpg",
+        "name": "Fruit tea",
+        "price": 3.11,
+        "productCode": "FR1",
+      }
+    }
+  />
+  <Product
+    key="SR1"
+    onClick={[MockFunction]}
+    product={
+      Object {
+        "image": "strawberries.jpg",
+        "name": "Strawberries",
+        "price": 5,
+        "productCode": "SR1",
+      }
+    }
+  />
+  <Product
+    key="CF1"
+    onClick={[MockFunction]}
+    product={
+      Object {
+        "image": "coffee.jpg",
+        "name": "Coffee",
+        "price": 11.23,
+        "productCode": "CF1",
+      }
+    }
+  />
+</div>
+`;

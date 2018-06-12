@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Total /> Should match snapshot 1`] = `
+<div
+  className="total"
+>
+  <div>
+    Subtotal: £0
+  </div>
+  <div>
+    Discounts: -£0
+  </div>
+  <div
+    className="text-bold"
+  >
+    Total: £0
+  </div>
+</div>
+`;
